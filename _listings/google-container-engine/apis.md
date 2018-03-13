@@ -27,7 +27,7 @@ apis:
   tags: Cluster
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/google-container-engine/v1-projects-projectid-zones-zone-clusters-clusterid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/google-container-engine/v1-projects-projectid-zones-zone-clusters-clusterid-put.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/container-engine/release-notes
