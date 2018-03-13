@@ -26,7 +26,7 @@ apis:
   tags: Cluster
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/azure-service-fabric/subscriptions-subscriptionid-providers-microsoft-servicefabric-clusters-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/azure-service-fabric/subscriptions-subscriptionid-providers-microsoft-servicefabric-locations-location-environments-environment-clusterversions-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-fabric/
