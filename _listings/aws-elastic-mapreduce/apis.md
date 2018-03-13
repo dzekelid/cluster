@@ -32,7 +32,7 @@ apis:
   tags: Cluster
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-elastic-mapreduce/action-describecluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-elastic-mapreduce/action-listclusters-get.md
 x-common:
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
