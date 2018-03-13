@@ -28,7 +28,7 @@ apis:
   tags: Cluster
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/google-cloud-dataproc/v1-projects-projectid-regions-region-clusters-clustername-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/google-cloud-dataproc/v1-projects-projectid-regions-region-clusters-clustername-get.md
 x-common:
 - type: x-change-logs
   url: https://cloud.google.com/dataproc/docs/release-notes/service
