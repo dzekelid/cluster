@@ -26,7 +26,7 @@ apis:
   tags: Cluster
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/azure-service-fabric/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicefabric-clusters-clustername-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/azure-service-fabric/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicefabric-clusters-clustername-delete.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-fabric/
