@@ -33,7 +33,7 @@ apis:
   tags: Cluster
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-elasticache/action-modifycachecluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-elasticache/action-rebootcachecluster-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
