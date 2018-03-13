@@ -28,7 +28,7 @@ apis:
   tags: Cluster
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-rds/action-restoredbclusterfroms3-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-rds/action-restoredbclustertopointintime-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
