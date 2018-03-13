@@ -26,7 +26,7 @@ apis:
   tags: Cluster
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-opsworks/action-describeecsclusters-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-opsworks/action-registerecscluster-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
