@@ -1,5 +1,6 @@
 ---
 name: Google Container Engine
+x-slug: google-container-engine
 description: Google Container Engine is a powerful cluster manager and orchestration
   system for running your Docker containers. Container Engine schedules your containers
   into the cluster and manages them automatically based on requirements you define
@@ -7,28 +8,32 @@ description: Google Container Engine is a powerful cluster manager and orchestra
   you the flexibility to take advantage of on-premises, hybrid, or public cloud infrastructure.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/docker-container.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Google APIs
-- Deployment
-- Containers
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/google-container-engine/apis.yaml
+x-alexaRank: "0"
+tags: Cluster
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/google-container-engine/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Container Engine API
-  description: Google Container Engine is a powerful cluster manager and orchestration
-    system for running your Docker containers
+- name: Google Container Engine - Get Clusters
+  x-api-slug: v1projectsprojectidzoneszoneclusters-get
+  description: Lists all clusters owned by a project in either the specified zone
+    or all zones.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/docker-container.png
-  humanURL: ""
+  humanURL: https://cloud.google.com/container-engine/
   baseURL: ://container.googleapis.com//
-  tags: Cluster
+  tags: Containers, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/google-container-engine/v1projectsprojectidzoneszoneclusters-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/google-container-engine/v1-projects-projectid-zones-zone-clusters-clusterid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/google-container-engine/v1projectsprojectidzoneszoneclusters-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.consumer.surveys.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.container.engine.stack.network
 - type: x-change-log
   url: https://cloud.google.com/container-engine/release-notes
 - type: x-documentation

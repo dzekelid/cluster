@@ -1,35 +1,39 @@
 ---
 name: AWS RDS
+x-slug: aws-rds
 description: Amazon Relational Database Service (Amazon RDS) makes it easy to set
-  up, operate, and scale anbsp;relational databasenbsp;in the cloud. It provides cost-efficient
+  up, operate, and scale arelational databasein the cloud. It provides cost-efficient
   and resizable capacity while managing time-consuming database administration tasks,
   freeing you up to focus on your applications and business. Amazon RDS provides you
-  six familiar database engines to choose from, includingnbsp;Amazon Aurora,nbsp;PostgreSQL,nbsp;MySQL,nbsp;MariaDB,nbsp;Oracle,
-  andnbsp;Microsoft SQL Server.
+  six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle,
+  andMicrosoft SQL Server.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Database
-- Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-rds/apis.yaml
+x-alexaRank: "0"
+tags: Cluster
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon RDS API
-  description: Amazon Relational Database Service (Amazon RDS) makes it easy to set
-    up, operate, and scale anbsp;relational databasenbsp;in the cloud
+- name: AWS RDS API - Promote Read Replica D B Cluster
+  x-api-slug: actionpromotereadreplicadbcluster-get
+  description: Promotes a Read Replica DB cluster to a standalone DB cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: ""
+  humanURL: https://aws.amazon.com/rds/
   baseURL: :///
-  tags: Cluster
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/aws-rds/actionpromotereadreplicadbcluster-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-rds/action-restoredbclustertopointintime-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/aws-rds/actionpromotereadreplicadbcluster-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.polly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.rds.stack.network
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
 - type: x-blog

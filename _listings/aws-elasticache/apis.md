@@ -1,5 +1,6 @@
 ---
 name: AWS ElastiCache
+x-slug: aws-elasticache
 description: Amazon ElastiCache is a web service that makes it easy to deploy, operate,
   and scale an in-memory data store or cache in the cloud. The service improves the
   performance of web applications by allowing you to retrieve information from fast,
@@ -12,29 +13,18 @@ description: Amazon ElastiCache is a web service that makes it easy to deploy, o
   nodes.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Performance
-- Cache
-- Availability
-- Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-elasticache/apis.yaml
+x-alexaRank: "0"
+tags: Cluster
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/aws-elasticache/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Amazon ElastiCache API
-  description: Amazon ElastiCache is a web service that makes it easy to deploy, operate,
-    and scale an in-memory data store or cache in the cloud
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
-  humanURL: ""
-  baseURL: :///
-  tags: Cluster
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-elasticache/action-rebootcachecluster-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.elastic.mapreduce.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.elasticache.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
 - type: x-faq

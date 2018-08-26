@@ -1,39 +1,28 @@
 ---
 name: AWS Elastic MapReduce
+x-slug: aws-elastic-mapreduce
 description: Amazon EMR provides a managed Hadoop framework that makes it easy, fast,
   and cost-effective to process vast amounts of data across dynamically scalable Amazon
   EC2 instances. You can also run other popular distributed frameworks such as Apache
   Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS
-  data stores such as Amazon S3 and Amazon DynamoDB.nAmazon EMR securely and reliably
+  data stores such as Amazon S3 and Amazon DynamoDB.Amazon EMR securely and reliably
   handles a broad set of big data use cases, including log analysis, web indexing,
   data transformations (ETL), machine learning, financial analysis, scientific simulation,
   and bioinformatics.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- MapReduce
-- Database
-- Data
-- Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-elastic-mapreduce/apis.yaml
+x-alexaRank: "0"
+tags: Cluster
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/aws-elastic-mapreduce/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Elastic MapReduce API
-  description: Amazon EMR provides a managed Hadoop framework that makes it easy,
-    fast, and cost-effective to process vast amounts of data across dynamically scalable
-    Amazon EC2 instances
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
-  humanURL: ""
-  baseURL: :///
-  tags: Cluster
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-elastic-mapreduce/action-listclusters-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.elastic.load.balancing.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.elastic.mapreduce.stack.network
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
 - type: x-command-line-interface

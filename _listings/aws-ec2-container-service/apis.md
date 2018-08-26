@@ -1,5 +1,6 @@
 ---
 name: AWS EC2 Container Service
+x-slug: aws-ec2-container-service
 description: Amazon EC2 Container Service (ECS) is a highly scalable, high performance
   container management service that supports Docker containers and allows you to easily
   run applications on a managed cluster of Amazon EC2 instances. Amazon ECS eliminates
@@ -12,29 +13,18 @@ description: Amazon EC2 Container Service (ECS) is a highly scalable, high perfo
   third-party schedulers to meet business or application specific requirements.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Deployment
-- Containers
-- Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-ec2-container-service/apis.yaml
+x-alexaRank: "0"
+tags: Cluster
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/aws-ec2-container-service/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Amazon EC2 Container Service API
-  description: Amazon EC2 Container Service (ECS) is a highly scalable, high performance
-    container management service that supports Docker containers and allows you to
-    easily run applications on a managed cluster of Amazon EC2 instances
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
-  humanURL: ""
-  baseURL: :///
-  tags: Cluster
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-ec2-container-service/action-listclusters-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.ec2.container.registry.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.ec2.container.service.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
 - type: x-faq

@@ -1,5 +1,6 @@
 ---
 name: AWS OpsWorks
+x-slug: aws-opsworks
 description: AWS OpsWorks is a configuration management service that uses Chef, an
   automation platform that treats server configurations as code. OpsWorks uses Chef
   to automate how servers are configured, deployed, and managed across your Amazon
@@ -7,27 +8,31 @@ description: AWS OpsWorks is a configuration management service that uses Chef, 
   OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-- Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-opsworks/apis.yaml
+x-alexaRank: "0"
+tags: Cluster
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS OpsWorks API
-  description: AWS OpsWorks is a configuration management service that uses Chef,
-    an automation platform that treats server configurations as code
+- name: AWS OpsWorks API - Deregister Ecs Cluster
+  x-api-slug: actionderegisterecscluster-get
+  description: Deregisters a specified Amazon ECS cluster from a stack.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
-  humanURL: ""
+  humanURL: https://aws.amazon.com/opsworks/
   baseURL: :///
-  tags: Cluster
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/aws-opsworks/actionderegisterecscluster-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/cluster/master/_listings/aws-opsworks/action-registerecscluster-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cluster/master/_listings/aws-opsworks/actionderegisterecscluster-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.marketplace.metering.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.opsworks.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 - type: x-documentation
