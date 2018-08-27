@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS OpsWorks
 x-complete: 1
@@ -85,4 +84,3 @@ paths:
       - Describe
       - Ecs
       - Clusters
----
